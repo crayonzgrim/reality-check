@@ -1,0 +1,443 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-03-01T07:02:04.401Z",
+  "activeFeatures": [
+    "reality-check",
+    "landing",
+    "analyze",
+    "result",
+    "share",
+    "[id]",
+    "og"
+  ],
+  "primaryFeature": "reality-check",
+  "features": {
+    "reality-check": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T04:27:40.829Z",
+        "lastUpdated": "2026-03-01T06:09:38.359Z"
+      },
+      "lastFile": "/Volumes/SSD/crayonzgrim-dev/project/reality-check/lib/gemini.ts"
+    },
+    "landing": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T04:29:33.190Z",
+        "lastUpdated": "2026-02-27T05:44:41.815Z"
+      },
+      "lastFile": "/Volumes/SSD/crayonzgrim-dev/project/reality-check/components/landing/Hero.tsx"
+    },
+    "analyze": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T04:30:09.476Z",
+        "lastUpdated": "2026-03-01T07:02:04.401Z"
+      },
+      "lastFile": "/Volumes/SSD/crayonzgrim-dev/project/reality-check/app/api/analyze/route.ts"
+    },
+    "result": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T04:30:23.749Z",
+        "lastUpdated": "2026-02-27T05:46:11.709Z"
+      },
+      "lastFile": "/Volumes/SSD/crayonzgrim-dev/project/reality-check/components/result/ResultView.tsx"
+    },
+    "share": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T04:31:18.096Z",
+        "lastUpdated": "2026-02-27T04:31:18.096Z"
+      },
+      "lastFile": "/Volumes/SSD/crayonzgrim-dev/project/reality-check/components/share/ShareButtons.tsx"
+    },
+    "[id]": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T05:41:45.827Z",
+        "lastUpdated": "2026-02-27T05:45:22.596Z"
+      },
+      "lastFile": "/Volumes/SSD/crayonzgrim-dev/project/reality-check/app/result/[id]/page.tsx"
+    },
+    "og": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T05:45:06.673Z",
+        "lastUpdated": "2026-02-27T05:45:06.673Z"
+      },
+      "lastFile": "/Volumes/SSD/crayonzgrim-dev/project/reality-check/app/api/og/route.tsx"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-02-26T23:57:15.680Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-03-01T07:02:04.401Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-02-27T04:27:40.829Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:27:59.075Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:28:04.093Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:28:08.267Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:28:34.418Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:29:23.609Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:29:33.190Z",
+      "feature": "landing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:29:43.458Z",
+      "feature": "landing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:29:49.310Z",
+      "feature": "landing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:09.476Z",
+      "feature": "analyze",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:18.386Z",
+      "feature": "analyze",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:23.749Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:27.030Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:33.450Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:39.654Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:44.383Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:49.617Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:54.734Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:30:58.096Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:31:07.154Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:31:18.096Z",
+      "feature": "share",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:31:25.478Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:31:30.186Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T04:31:35.796Z",
+      "feature": "analyze",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:41:45.827Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:41:53.662Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:42:01.552Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:42:13.273Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:42:19.015Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:42:31.283Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:42:45.535Z",
+      "feature": "analyze",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:42:53.399Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:43:10.906Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:43:30.144Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:43:51.264Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:43:57.869Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:44:01.269Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:44:18.337Z",
+      "feature": "analyze",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:44:34.143Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:44:41.815Z",
+      "feature": "landing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:06.673Z",
+      "feature": "og",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:16.742Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:22.596Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:32.250Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:34.717Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:35.934Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:40.570Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:42.289Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:45:50.882Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:46:11.709Z",
+      "feature": "result",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:46:21.086Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T05:46:31.217Z",
+      "feature": "analyze",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-01T06:09:38.359Z",
+      "feature": "reality-check",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-01T07:02:04.401Z",
+      "feature": "analyze",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}
