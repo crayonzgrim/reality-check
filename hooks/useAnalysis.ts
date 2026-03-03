@@ -38,6 +38,7 @@ export function useAnalysis() {
         setError(
           err instanceof Error ? err.message : "Something went wrong"
         );
+        setAnalyzing(false);
         return null;
       }
     },
