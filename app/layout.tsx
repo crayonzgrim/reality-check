@@ -47,7 +47,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col bg-background font-sans text-foreground antialiased`}
       >
         {/* Mobile top banner ad */}
-        <div className="sticky top-0 z-20 flex justify-center bg-background xl:hidden">
+        <div className="flex justify-center pt-3 pb-2 xl:hidden">
           <KakaoAdFit unit="DAN-w6CABwzq6DdICuCx" width={320} height={100} />
         </div>
 
