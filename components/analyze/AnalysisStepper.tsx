@@ -6,9 +6,10 @@ import { Loader2, Check } from "lucide-react";
 
 const STEPS = [
   { label: "Extracting keywords from your idea...", delay: 0 },
-  { label: "Scanning the market for competitors...", delay: 2000 },
-  { label: "Calculating saturation scores...", delay: 4500 },
-  { label: "Generating your verdict...", delay: 7000 },
+  { label: "Scanning the market for competitors...", delay: 3000 },
+  { label: "Analyzing competitive landscape...", delay: 7000 },
+  { label: "Calculating saturation scores...", delay: 12000 },
+  { label: "Generating your verdict...", delay: 17000 },
 ];
 
 type AnalysisStepperProps = {
@@ -17,8 +18,11 @@ type AnalysisStepperProps = {
 
 export function AnalysisStepper({ isComplete }: AnalysisStepperProps) {
   const [activeStep, setActiveStep] = useState(0);
+  const [elapsedSec, setElapsedSec] = useState(0);
   const timersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  const allStepsDone = activeStep >= STEPS.length && !isComplete;
 
   useEffect(() => {
     if (isComplete) {
@@ -38,6 +42,14 @@ export function AnalysisStepper({ isComplete }: AnalysisStepperProps) {
       timersRef.current = [];
     };
   }, [isComplete]);
+
+  // 경과 시간 카운터
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setElapsedSec((prev) => prev + 1);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   // GSAP 애니메이션: 각 step이 활성화될 때 슬라이드 인
   useEffect(() => {
@@ -115,7 +127,24 @@ export function AnalysisStepper({ isComplete }: AnalysisStepperProps) {
               </div>
             );
           })}
+
+          {allStepsDone && (
+            <div className="stepper-step mt-2 flex items-center gap-3">
+              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border">
+                <Loader2 className="h-4 w-4 animate-spin text-primary" />
+              </div>
+              <span className="text-sm text-foreground">
+                Finalizing results...
+              </span>
+            </div>
+          )}
         </div>
+
+        <p className="mt-6 text-center text-xs text-muted-foreground">
+          {elapsedSec < 10
+            ? "This usually takes 15–30 seconds"
+            : `${elapsedSec}s elapsed — almost there!`}
+        </p>
       </div>
     </div>
   );
