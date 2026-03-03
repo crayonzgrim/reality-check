@@ -75,14 +75,14 @@ export async function analyzeWithLLM(
 
   const attempt = async (): Promise<LLMAnalysis> => {
     const response = await getClient().models.generateContent({
-      model: "gemini-2.0-flash",
+      model: "gemini-2.5-flash",
       contents: userPrompt,
       config: {
         systemInstruction: SYSTEM_PROMPT,
         responseMimeType: "application/json",
         responseSchema: llmResponseSchema,
         temperature: 0.7,
-        maxOutputTokens: 2000,
+        maxOutputTokens: 8192,
       },
     });
 
