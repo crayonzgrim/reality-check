@@ -35,10 +35,10 @@ export function RiskRadarChart({ risks }: RiskRadarChartProps) {
       <CardContent>
         <ResponsiveContainer width="100%" height={250}>
           <RechartsRadarChart data={data}>
-            <PolarGrid stroke="hsl(var(--border))" />
+            <PolarGrid stroke="rgba(255,255,255,0.2)" />
             <PolarAngleAxis
               dataKey="type"
-              tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 12 }}
+              tick={{ fill: "#ffffff", fontSize: 12 }}
             />
             <PolarRadiusAxis
               angle={90}
